@@ -19,7 +19,8 @@ a {
   background-color: #1f2937;
 }
 
-.header-container {
+.header-container,
+.info-container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 16px;
@@ -86,6 +87,7 @@ a {
   flex-grow: 1;
   max-width: 600px;
   height: auto;
+  border-radius: 10px;
 }
 
 button {
@@ -103,4 +105,32 @@ button {
 .header-button:hover {
   background-color: #f9faf8;
   color: #3992f6;
+}
+
+.info-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info-header-text {
+  margin-bottom: 80px;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+.info-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-bottom: 100px;
+}
+
+.card {
+  max-width: 200px;
+}
+
+.card-img {
+  max-width: 200px;
+  border-radius: 10px;
 }
