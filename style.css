@@ -14,13 +14,14 @@ ul {
 a {
   text-decoration: none;
 }
-
+/* header-section */
 .header-section {
   background-color: #1f2937;
 }
 
 .header-container,
-.info-container {
+.info-container,
+.quote-container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 16px;
@@ -106,7 +107,7 @@ button {
   background-color: #f9faf8;
   color: #3992f6;
 }
-
+/* info section */
 .info-container {
   text-align: center;
   margin-top: 50px;
@@ -133,4 +134,32 @@ button {
 .card-img {
   max-width: 200px;
   border-radius: 10px;
+}
+
+/* quote section */
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+  margin-top: 100px;
+}
+
+.quote-writer {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 100px;
 }
